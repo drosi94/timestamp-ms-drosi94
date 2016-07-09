@@ -1,0 +1,26 @@
+{
+  "name": "timestamp-ms",
+  "version": "1.0.0",
+  "description": "Timestamp Microservice for freecodecamp",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drosi94/timestamp-ms-drosi94.git"
+  },
+  "keywords": [
+    "timestamp",
+    "freecodecamp"
+  ],
+  "author": "drosi94",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drosi94/timestamp-ms-drosi94/issues"
+  },
+  "homepage": "https://github.com/drosi94/timestamp-ms-drosi94#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
