@@ -31,8 +31,10 @@ app.get('/:str', function(req, res){
         json.natural = date.toDateString();
         res.send(JSON.stringify(json));   
     }else{
-        res.send("null");
-    }
+        json.unix =  null;
+        json.natural = null;
+        res.send(JSON.stringify(json));   
+        }
             
     
     
